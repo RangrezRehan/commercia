@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/logo.png" width="160" alt="Commercia Logo" />
+</p>
+
+<h1 align="center">Commercia</h1>
+<p align="center">
+  Commercial Variation Tracker for Quantity Surveyors
+</p>
 # Commercia
 
 ![React](https://img.shields.io/badge/React-Frontend-blue)
