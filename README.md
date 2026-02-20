@@ -1,36 +1,56 @@
 # Commercia
-```md
+
 ![React](https://img.shields.io/badge/React-Frontend-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
 ![Vite](https://img.shields.io/badge/Vite-Build-purple)
 ![Status](https://img.shields.io/badge/Deployed-Firebase%20Hosting-brightgreen)
 
-A lightweight commercial variation tracker for Quantity Surveyors.  
-Track projects, manage variation registers, monitor exposure, and keep a clear commercial audit trail.
+A commercial variation tracker built for Quantity Surveyors and project teams.
 
-## Live Demo
+Commercia helps manage project variations, monitor commercial exposure, and maintain a structured audit trail across multiple projects.
+
+---
+
+## Live Application
+
 https://commercia-964d8.web.app
 
+---
+
+## GitHub Repository
+
+https://github.com/RangrezRehan/commercia
+
+---
+
 ## Features
-- Google authentication (Firebase Auth)
-- Protected routes (only signed-in users can access app pages)
-- Projects register (create and manage projects)
-- Variations register per project
-- Status workflow: Draft / Submitted / Agreed / Rejected
-- Submission date tracking (submittedAt) + agreedAt
-- Overdue risk highlight (Submitted > 30 days)
-- Live totals: agreed vs pending exposure
-- All-variations view across all projects
-- Secure user-based Firestore access rules
+
+- Google Authentication (Firebase Auth)
+- Secure user-based Firestore rules
+- Projects register
+- Variation register per project
+- Status workflow (Draft / Submitted / Agreed / Rejected)
+- Automatic submission tracking
+- Overdue highlighting for commercial risk
+- Dashboard with total exposure overview
+- Cross-project variation register
 - Firebase Hosting deployment
 
+---
+
+
 ## Tech Stack
+
 - React (Vite)
 - Firebase Authentication
 - Cloud Firestore
 - Firebase Hosting
+- Modern JavaScript (ES6+)
 
-## Getting Started (Local)
+---
+
+## Getting Started (Local Development)
+
 ```bash
 npm install
 npm run dev
