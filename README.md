@@ -7,7 +7,7 @@
   Commercial Variation Tracker for Quantity Surveyors
 </p>
 
-# Commercia
+<!-- # Commercia -->
 
 ![React](https://img.shields.io/badge/React-Frontend-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
